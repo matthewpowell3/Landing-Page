@@ -149,7 +149,7 @@ button:active {
   overflow: hidden;
   border-right: 0.1em solid transparent;
   white-space: nowrap;
-  animation: typing 5s ease 1;
+  animation: typing 5s ease 3;
 }
 
 @keyframes typing {
