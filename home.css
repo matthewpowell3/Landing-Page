@@ -239,7 +239,7 @@ button:active {
     var(--gradient-first),
     var(--gradient-second)
   );
-  z-index: 9999;
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,7 +252,6 @@ button:active {
   left: 0;
   right: 0;
   bottom: 0;
- q
 }
 
 .loading-screen img {
