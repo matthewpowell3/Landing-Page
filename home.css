@@ -238,35 +238,21 @@ button:active {
   z-index: 999;
 }
 
-#loader {
-  background-image: linear-gradient(
-    90deg,
-    var(--gradient-first),
-    var(--gradient-second)
-  );
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  position: relative;
-  border: 10px solid #fff;
-  border-top-color: #3498db;
+#loading-circle {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  animation: spin 1s ease-in-out 4;
+  border: 4px solid #fff;
+  border-top-color: #000;
+  animation: loading-circle 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes spin {
+@keyframes loading-circle {
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Hide loader when page content is loaded */
-.loaded #loader-wrapper {
-  display: none;
-}
-
-/* Fade in page content when page is loaded */
-.loaded #content-wrapper {
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
 }
