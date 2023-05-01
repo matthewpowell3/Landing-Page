@@ -23,3 +23,8 @@ document.addEventListener('mousemove', (e) => {
   // Set the SVG's position to the mouse's x and y coordinates
   move(e);
 });
+
+window.addEventListener('load', function () {
+  const loader = document.getElementById('loading');
+  loader.className += ' hidden'; // hide the loading animation after page has loaded
+});
