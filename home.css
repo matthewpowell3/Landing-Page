@@ -251,7 +251,7 @@ button:active {
   border: 10px solid #fff;
   border-top-color: #3498db;
   border-radius: 50%;
-  animation: spin 1s ease-in-out 5;
+  animation: spin 1s ease-in-out 4;
 }
 
 @keyframes spin {
