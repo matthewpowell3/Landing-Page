@@ -25,5 +25,8 @@ document.addEventListener('mousemove', (e) => {
 });
 
 window.addEventListener("load", function () {
-  document.querySelector("#content-wrapper").classList.remove("loaded");
+  setTimeout(function () {
+    document.querySelector("#content-wrapper").classList.remove("loaded");
+  }, 1000); // 1000ms = 1s
 });
+

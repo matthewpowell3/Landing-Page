@@ -239,6 +239,11 @@ button:active {
 }
 
 #loader {
+  background-image: linear-gradient(
+    90deg,
+    var(--gradient-first),
+    var(--gradient-second)
+  );
   display: inline-block;
   width: 80px;
   height: 80px;
@@ -246,7 +251,7 @@ button:active {
   border: 10px solid #fff;
   border-top-color: #3498db;
   border-radius: 50%;
-  animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out 5;
 }
 
 @keyframes spin {
