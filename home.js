@@ -25,7 +25,6 @@ document.addEventListener('mousemove', (e) => {
 });
 
 window.addEventListener('load', function () {
-  setTimeout(function () {
-    document.querySelector('#content-wrapper').classList.remove('loaded');
-  }, 1000); // 1000ms = 1s
+  const loader = document.querySelector('.loading-screen');
+  loader.classList.add('fadeOut');
 });
