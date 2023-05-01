@@ -24,7 +24,6 @@ document.addEventListener('mousemove', (e) => {
   move(e);
 });
 
-window.addEventListener('load', function () {
-  const loader = document.getElementById('loading');
-  loader.className += ' hidden'; // hide the loading animation after page has loaded
+window.addEventListener("load", function () {
+  document.querySelector("#content-wrapper").classList.remove("loaded");
 });

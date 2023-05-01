@@ -228,28 +228,40 @@ button:active {
   color: var(--secondary-color);
 }
 
-#loading {
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  background: #fff;
+#loader-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 
-#loading .spinner {
-  width: 50px;
-  height: 50px;
+#loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: 10px solid #fff;
+  border-top-color: #3498db;
   border-radius: 50%;
-  border: 5px solid #999;
-  border-top-color: #333;
-  animation: spin 1s infinite linear;
+  animation: spin 1s ease-in-out infinite;
 }
 
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Hide loader when page content is loaded */
+.loaded #loader-wrapper {
+  display: none;
+}
+
+/* Fade in page content when page is loaded */
+.loaded #content-wrapper {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
