@@ -192,6 +192,11 @@ button:active {
   width: 400px;
 }
 
+.author-image:hover .author,
+.author-image:focus .author {
+  transform: scale(1.2);
+}
+
 #cursor {
   width: 60px;
   height: 62px;
