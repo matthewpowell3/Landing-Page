@@ -28,3 +28,38 @@ window.addEventListener('load', function () {
   const loader = document.querySelector('.loading-screen');
   loader.classList.add('fadeOut');
 });
+
+
+// Load the content of home.html into the container
+$('#content').load('home.html');
+
+// Handle button clicks
+$('#home-button').click(function() {
+  // Load the content of home.html into the container
+  $('#content').load('home.html', function() {
+    // Add the slide-in class to the new content
+    $('#content > div').addClass('slide-in');
+    // Remove the slide-out class from the old content
+    $('#content > div').removeClass('slide-out');
+  });
+});
+
+$('#about-button').click(function() {
+  // Load the content of about.html into the container
+  $('#content').load('about.html', function() {
+    // Add the slide-in class to the new content
+    $('#content > div').addClass('slide-in');
+    // Remove the slide-out class from the old content
+    $('#content > div').removeClass('slide-out');
+  });
+});
+
+// Handle page transition animation
+$(document).on('click', 'a[href^="/"]', function(event) {
+  event.preventDefault();
+  var url = $(this).attr('href');
+  $('#content > div').addClass('slide-out');
+  setTimeout(function() {
+    window.location.href = url;
+  }, 500);
+});

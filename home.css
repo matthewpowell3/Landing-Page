@@ -275,3 +275,26 @@ button:active {
     transform: rotate(360deg);
   }
 } */
+
+
+#content {
+  position: relative;
+  overflow: hidden;
+}
+
+#content > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+#content > div.slide-in {
+  transform: translateX(100%);
+}
+
+#content > div.slide-out {
+  transform: translateX(-100%);
+}
