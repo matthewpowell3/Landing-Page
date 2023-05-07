@@ -216,3 +216,15 @@ button:active {
 #icon {
   font-size: 20px;
 }
+
+#icon-left {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+#icon-right {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
