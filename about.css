@@ -233,7 +233,7 @@ button:active {
 
 #icon-two {
   position: absolute;
-  left: 20px;
+  left: 40px;
   bottom: 10px;
 }
 
@@ -245,6 +245,6 @@ button:active {
 
 #icon-four {
   position: absolute;
-  right: 20px;
+  right: 40px;
   bottom: 10px;
 }

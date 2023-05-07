@@ -190,6 +190,7 @@ button:active {
   top: 100px;
   right: 20px;
   width: 400px;
+  transition: all 0.5s;
 }
 
 .author-image:hover .author,
