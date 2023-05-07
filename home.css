@@ -183,6 +183,7 @@ button:active {
 
 .author-image {
   flex: 1;
+  overflow: hidden;
 }
 
 .author {
@@ -273,22 +274,3 @@ button:active {
     transform: rotate(360deg);
   }
 } */
-
-.container {
-  position: relative;
-}
-
-.bubble {
-  animation: bubble 1s;
-}
-
-@keyframes bubble {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(10);
-    opacity: 0;
-  }
-}
