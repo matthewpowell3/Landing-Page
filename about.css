@@ -239,6 +239,16 @@ button:active {
   bottom: 10px;
 }
 
+.move {
+  position: absolute;
+  right: 20px;
+}
+
+.move-two {
+  position: absolute;
+  left: 20px;
+}
+
 .container {
   position: relative;
 }
