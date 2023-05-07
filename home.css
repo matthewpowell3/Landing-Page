@@ -6,9 +6,13 @@
   --secondary-color: #000000;
 }
 
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   height: 100vh;
   background-image: linear-gradient(
     90deg,
@@ -16,6 +20,7 @@ body {
     var(--gradient-second)
   );
   font-family: 'Inter', san-serif;
+  overflow: hidden;
 }
 
 .header {
