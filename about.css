@@ -236,3 +236,23 @@ button:active {
   right: 10px;
   bottom: 10px;
 }
+
+.container {
+  position: relative;
+}
+
+.bubble {
+  animation: bubble 1s;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
