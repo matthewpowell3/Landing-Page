@@ -225,45 +225,26 @@ button:active {
   color: gray;
 }
 
-#icon-left {
+#icon-one {
   position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-}
-
-#icon-right {
-  position: absolute;
-  right: 10px;
   left: 10px;
   bottom: 10px;
 }
 
-.move {
-  position: absolute;
-  right: 20px;
-}
-
-.move-two {
+#icon-two {
   position: absolute;
   left: 20px;
+  bottom: 10px;
 }
 
-.container {
-  position: relative;
+#icon-three {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
-.bubble {
-  animation: bubble 1s;
-}
-
-@keyframes bubble {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(10);
-    opacity: 0;
-  }
+#icon-four {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
 }
