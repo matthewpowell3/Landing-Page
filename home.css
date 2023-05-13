@@ -15,7 +15,7 @@ body {
     var(--gradient-first),
     var(--gradient-second)
   );
-  font-family: "Inter", san-serif;
+  font-family: 'Inter', san-serif;
 }
 
 .header {
@@ -56,7 +56,7 @@ nav li {
 }
 
 li:after {
-  content: "";
+  content: '';
   background-color: #ff4a57;
   width: 100%;
   height: 3px;
@@ -78,7 +78,7 @@ li:hover::after {
 a {
   text-decoration: none;
   color: var(--secondary-color);
-  font-family: "Inter", san-serif;
+  font-family: 'Inter', san-serif;
   transition: all 0.25s ease;
 }
 
@@ -105,7 +105,7 @@ button {
 }
 
 button::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -168,14 +168,14 @@ button:active {
 }
 
 @keyframes blink-caret {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
     border-color: black;
   }
 }
-
 
 .about-paragraph {
   width: 60%;
@@ -189,7 +189,14 @@ button:active {
   position: absolute;
   top: 100px;
   right: 20px;
+  height: auto;
   width: 400px;
+  transition: all 0.5s;
+}
+
+.author-image:hover .author,
+.author-image:focus .author {
+  transform: scale(1.2);
 }
 
 #cursor {
@@ -226,4 +233,66 @@ button:active {
 ::selection {
   background: var(--selection-color);
   color: var(--secondary-color);
+}
+
+/* .loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    90deg,
+    var(--gradient-first),
+    var(--gradient-second)
+  );
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-screen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.loading-screen img {
+  max-width: 200px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+#content {
+  position: relative;
+  overflow: hidden;
+}
+
+#content > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+#content > div.slide-in {
+  transform: translateX(100%);
+}
+
+#content > div.slide-out {
+  transform: translateX(-100%);
 }
