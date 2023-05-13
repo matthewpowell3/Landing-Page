@@ -162,7 +162,7 @@ button:active {
     border-color: lightgray;
   }
   100% {
-    width: 50%;
+    width: 80%;
     border-color: black;
   }
 }
