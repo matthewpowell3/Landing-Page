@@ -179,12 +179,11 @@ button:active {
 }
 
 .about-paragraph {
-  width: 60%;
+  width: 58%;
 }
 
 .author-image {
-  flex: 1;
-  display: none;
+  flex: 2;
 }
 
 .author {
@@ -193,6 +192,7 @@ button:active {
   right: 20px;
   width: 400px;
   transition: all 0.5s;
+  z-index: 50px;
 }
 
 .author-image:hover .author,
