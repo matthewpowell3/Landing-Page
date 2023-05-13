@@ -187,15 +187,15 @@ button:active {
 
 .author {
   position: absolute;
-  top: 80px;
+  top: 100px;
   right: 20px;
-  width: 420px;
+  width: 410px;
   transition: all 0.5s;
 }
 
 .author-image:hover .author,
 .author-image:focus .author {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #cursor {
