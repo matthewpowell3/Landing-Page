@@ -184,6 +184,7 @@ button:active {
 
 .author-image {
   flex: 2;
+  height: 500px;
 }
 
 .author {
