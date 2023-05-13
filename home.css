@@ -140,7 +140,7 @@ button:active {
 }
 
 .about-author {
-  flex: 1;
+  flex: 2;
   margin-top: 100px;
   margin-left: 100px;
 }
