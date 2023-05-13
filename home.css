@@ -190,6 +190,7 @@ button:active {
   position: absolute;
   top: 100px;
   right: 20px;
+  height: auto;
   width: 400px;
   transition: all 0.5s;
 }
@@ -274,7 +275,6 @@ button:active {
     transform: rotate(360deg);
   }
 } */
-
 
 #content {
   position: relative;
