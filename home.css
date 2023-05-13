@@ -16,6 +16,7 @@ body {
     var(--gradient-second)
   );
   font-family: 'Inter', san-serif;
+  overflow: hidden;
 }
 
 .header {
