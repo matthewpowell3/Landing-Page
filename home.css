@@ -190,7 +190,7 @@ button:active {
   position: absolute;
   top: 120px;
   right: 20px;
-  width: 400px;
+  width: 450px;
   transition: all 0.5s;
   z-index: 50px;
 }
