@@ -162,7 +162,7 @@ button:active {
     border-color: lightgray;
   }
   100% {
-    width: 35%;
+    width: 45%;
     border-color: black;
   }
 }
@@ -187,9 +187,9 @@ button:active {
 
 .author {
   position: absolute;
-  top: 100px;
+  top: 120px;
   right: 20px;
-  width: 410px;
+  width: 400px;
   transition: all 0.5s;
 }
 
