@@ -179,12 +179,11 @@ button:active {
 }
 
 .about-paragraph {
-  width: 58%;
+  width: 60%;
 }
 
 .author-image {
   flex: 2;
-  height: 500px;
 }
 
 .author {
