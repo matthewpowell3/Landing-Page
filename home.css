@@ -182,7 +182,9 @@ button:active {
 }
 
 .author-image {
-  flex: 2;
+  flex: 1;
+  position: absolute;
+  top: 150px;
 }
 
 .author {
