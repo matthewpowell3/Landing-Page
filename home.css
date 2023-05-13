@@ -162,7 +162,7 @@ button:active {
     border-color: lightgray;
   }
   100% {
-    width: 80%;
+    width: 45%;
     border-color: black;
   }
 }
@@ -183,15 +183,13 @@ button:active {
 
 .author-image {
   flex: 1;
-  position: absolute;
-  top: 150px;
 }
 
 .author {
   position: absolute;
-  top: 150px;
+  top: 120px;
   right: 20px;
-  width: 380px;
+  width: 400px;
   transition: all 0.5s;
 }
 
