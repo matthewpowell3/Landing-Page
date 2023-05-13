@@ -16,7 +16,6 @@ body {
     var(--gradient-second)
   );
   font-family: 'Inter', san-serif;
-  overflow: hidden;
 }
 
 .header {
@@ -141,7 +140,7 @@ button:active {
 }
 
 .about-author {
-  flex: 2;
+  flex: 1;
   margin-top: 100px;
   margin-left: 100px;
 }
@@ -183,16 +182,15 @@ button:active {
 }
 
 .author-image {
-  flex: 2;
+  flex: 1;
 }
 
 .author {
   position: absolute;
-  top: 120px;
+  top: 80px;
   right: 20px;
-  width: 450px;
+  width: 420px;
   transition: all 0.5s;
-  z-index: 50px;
 }
 
 .author-image:hover .author,
