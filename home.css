@@ -188,10 +188,9 @@ button:active {
 
 .author {
   position: absolute;
-  top: 100px;
+  top: 120px;
   right: 20px;
-  height: auto;
-  width: 400px;
+  width: 500px;
   transition: all 0.5s;
 }
 
