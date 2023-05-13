@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="home.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <script src="https://unpkg.com/@barba/core"></script>
-    <script src="https://unpkg.com/@barba/prefetch"></script> -->
-  </head>
 
-  <body>
-    <div id="content">
-      <header class="header">
-        <h1>CUBA</h1>
-        <input
-          class="input"
-          type="text"
-          placeholder="Find The Services You Need"
-        />
-        <nav>
-          <ul>
-            <li><a href="#">Other Clients</a></li>
-            <li onclick="bubbleTransition()">
-              <a href="about.html" id="home-button">About</a>
-            </li>
-            <button class="parteners">A Partenership Awaits</button>
-          </ul>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Page</title>
+  <link rel="stylesheet" href="about.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-      <main class="main">
-        <div class="about-author">
-          <h1 class="profession">
-            Web Designer <br />
-            & Photographer
-          </h1>
-          <p class="about-paragraph">
-            Hi am Matthew a web designer & photographer you need, I am currently
-            operating in jamacia with my starter up business, I promise my team
-            will always push 100% when they are working for clients like your
-            self.
-          </p>
-          <button class="hire-btn">Job To Get Done</button>
-        </div>
-        <div class="author-image">
-          <img
-            class="author"
-            src="https://raw.githubusercontent.com/matthewpowell3/SpaceForce/main/Leonardo_Diffusion_a_computer_drawing_of_a_man_look_at_you_smi_1.svg"
-            alt="matthew"
-          />
-        </div>
+  <script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/@barba/prefetch"></script>
 
-        <img
-          src="https://raw.githubusercontent.com/matthewpowell3/SpaceForce/810a19266d4f8c970a9358c2fd21c684584d879f/Right%20Cursor.svg"
-          id="cursor"
-          alt="matthew"
-        />
-      </main>
+<script src="https://kit.fontawesome.com/a0e112ddd2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-barba-namespace="about">
+
+
+  <header class="header">
+    <h1>CUBA</h1>
+    <input class="input" type="text" placeholder="Find The Services You Need">
+    <nav>
+      <ul>
+        <li><a href="#">Other Clients</a></li>
+        <li onclick="bubbleTransition()"><a href="home.html" onclick="bubbleTransition()">Home</a></li>
+        <button class="parteners">A Partenership Awaits</button>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-page">
+    <div class="content">
+      <p class="question">WHAT DO YOU WANT TO KNOW ABOUT ME</p>
+      <h1 class="scramble">About</h1>
     </div>
-    <!-- 
-    <div class="loading-screen"></div> -->
-    <script src="home.js"></script>
-  </body>
+
+    <div class="image">
+      <div class="author-image">
+        <img class="author" src="https://raw.githubusercontent.com/matthewpowell3/SpaceForce/main/Leonardo_Diffusion_a_computer_drawing_of_a_man_look_at_you_smi_1.svg" alt="matthew">
+      </div>
+      
+      <div id="icon">
+      <a href="https://www.facebook.com/freecodecamp" target="_blank" rel="noreferrer"><i id="icon-one" class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/freecodecamp" target="_blank" rel="noreferrer"><i class="fab fa-twitter move" id="icon-two"></i></a>
+    
+
+      <a href="https://www.linkedin.com/school/free-code-camp" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" id="icon-three" ></i></a>
+      <a href="https://www.youtube.com/freecodecamp" target="_blank" rel="noreferrer"><i class="fab fa-youtube move-right" id="icon-four"></i></a>
+    </div>
+      
+        <img src="https://raw.githubusercontent.com/matthewpowell3/SpaceForce/810a19266d4f8c970a9358c2fd21c684584d879f/Right%20Cursor.svg" id="cursor" alt="matthew">
+  </main>
+
+
+  <h1>I am a certified Web Engineer here is my certificate.</h1>
+  <img src="https://raw.githubusercontent.com/matthewpowell3/Landing-Page/2ebd5663894fbd5892747d62462d531557ccab87/Leonardo_Diffusion_a_fun_bubles_1.svg" alt="certificate">
+  <script src="about.js"></script>
+ 
+
+</body>
+
 </html>
