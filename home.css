@@ -183,7 +183,8 @@ button:active {
 }
 
 .author-image {
-  flex: 2;
+  flex: 1;
+  display: none;
 }
 
 .author {
